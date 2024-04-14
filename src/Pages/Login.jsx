@@ -63,7 +63,7 @@ const Login = () => {
                 </Link>
 
                 <button type='submit'
-                 onClick={() => navigate('/schedule')}
+                 onClick={() => navigate('/goals')}
                 className='text-white mt-20 bg-gradient-to-b from-[#7B91FF]  to-[#95BEFF] rounded-xl p-2'>
                 Sign In
                 </button>

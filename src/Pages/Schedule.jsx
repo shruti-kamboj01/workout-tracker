@@ -17,7 +17,7 @@ const Schedule = () => {
      
   return (
     <div className='w-11/12 mx-auto'>
-    <div className='mt-10 rounded-md bg-gray-100 w-fit p-2' onClick={() => navigate('/goals')}> <MdArrowBackIos/>  </div>
+    <div className='mt-10 rounded-md bg-gray-100 w-fit p-2 cursor-pointer' onClick={() => navigate('/goals')}> <MdArrowBackIos/>  </div>
  <h1 className='text-center mt-8 font-semibold text-[20px]'>Workout Schedule</h1>
      <div className='relative'>
      <FullCalendar
@@ -36,7 +36,7 @@ const Schedule = () => {
         ]}
       />
 
-      <button className='block fixed right-10  bottom-16 rounded-full lg:bottom-10 p-3 px-5 z-10 bg-gradient-to-b from-[#7B91FF]  to-[#95BEFF] text-4xl'
+      <button className='block fixed right-10  rounded-full lg:bottom-10 p-3 px-5 z-10 bg-gradient-to-b from-[#7B91FF]  to-[#95BEFF] text-4xl'
       onClick={() => navigate('/workout')}>+</button>
      </div>
    </div>
