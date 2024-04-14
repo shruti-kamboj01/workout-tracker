@@ -18,6 +18,7 @@ const SignUp = () => {
 
   const onsubmit = (data) => {
     console.log(data);
+     navigate('/goals')
    
   };
   return (
@@ -116,7 +117,7 @@ const SignUp = () => {
         <button
           type="submit"
           className="text-white mt-20 bg-gradient-to-b from-[#7B91FF]  to-[#95BEFF] rounded-xl p-2"
-          onClick={() => navigate('/goals')}
+          
         >
           Create an account
         </button>

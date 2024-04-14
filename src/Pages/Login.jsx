@@ -16,6 +16,7 @@ const Login = () => {
 
   const onsubmit = (data) => {
        console.log(data)
+       navigate('/goals')
   }
   return (
     <div className='flex flex-col gap-y-8 w-11/12 mx-auto'>
@@ -63,7 +64,7 @@ const Login = () => {
                 </Link>
 
                 <button type='submit'
-                 onClick={() => navigate('/goals')}
+               
                 className='text-white mt-20 bg-gradient-to-b from-[#7B91FF]  to-[#95BEFF] rounded-xl p-2'>
                 Sign In
                 </button>
