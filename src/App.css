@@ -1,0 +1,44 @@
+
+.full-calendar {
+  font-family: Arial, sans-serif;
+  position: flex;
+  flex-wrap: wrap;
+}
+
+/* Customize the header */
+.fc-header-toolbar {
+ color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: x-small;
+}
+
+/* Customize the event */
+.fc-event {
+  background-image: linear-gradient(to right, #D3A4F4 , #E9B1E0);
+  color: #fff;
+  border: none;
+  /* display: flex;
+  flex-direction: column; */
+  
+}
+
+/* Customize the event title */
+.fc-event-title {
+  font-size: 12px;
+  font-weight:600;
+  margin-top: 0%;
+  /* background-color: #007bff; */
+  
+}
+
+
+/* Customize the event time */
+.fc-event-time {
+  font-size: 12px;
+}
+
+
+.form-style {
+    @apply rounded-lg bg-gray-200 p-3 text-[16px] leading-[24px] text-gray-600 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-slate-500 focus:outline-none;
+  }
